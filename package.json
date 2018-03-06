@@ -6,6 +6,10 @@
 	"scripts": {
 		"install": "node install.js"
 	},
+	"os": [
+		"darwin",
+		"win32"
+	],
 	"engines": {
 		"node": ">=6.4"
 	},
