@@ -7,7 +7,6 @@
 		"install": "node install.js"
 	},
 	"os": [
-		"darwin",
 		"win32"
 	],
 	"engines": {
