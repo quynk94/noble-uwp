@@ -28,7 +28,7 @@
 	"homepage": "https://github.com/jasongin/noble-uwp#readme",
 	"dependencies": {
 		"debug": "^2.6.0",
-		"noble": "https://github.com/sonyged/noble.git#da027c594da72161a609fa94ecaeccc8c6e3d020"
+		"noble": "https://github.com/sonyged/noble.git#4f89e9474b6986ebdff2f520c9bd9b247989ad35"
 	},
 	"bundledDependencies": [
 		"node-pre-gyp"
