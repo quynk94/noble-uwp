@@ -3,9 +3,7 @@
 	"version": "0.6.2",
 	"description": "Noble (Node.js Bluetooth LE) with Windows 10 UWP bindings",
 	"main": "index.js",
-	"scripts": {
-		"install": "node install.js"
-	},
+	"scripts": {},
 	"engines": {
 		"node": ">=6.4"
 	},
@@ -24,6 +22,13 @@
 	},
 	"homepage": "https://github.com/jasongin/noble-uwp#readme",
 	"dependencies": {
+		"@nodert-win10-au/windows.devices.bluetooth.genericattributeprofile": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.bluetooth": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.bluetooth.advertisement": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.enumeration": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.radios": "^0.4.4",
+		"@nodert-win10-cu/windows.foundation": "^0.4.4",
+		"@nodert-win10-cu/windows.storage.streams": "^0.4.4",
 		"debug": "^2.6.0",
 		"noble": "^1.7.0"
 	},
