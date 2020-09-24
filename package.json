@@ -30,7 +30,7 @@
 		"@nodert-win10-cu/windows.foundation": "^0.4.4",
 		"@nodert-win10-cu/windows.storage.streams": "^0.4.4",
 		"debug": "^2.6.0",
-		"noble": "^1.7.0"
+		"noble": "npm:@abandonware/noble@^1.9.2-10"
 	},
 	"bundledDependencies": [
 		"node-pre-gyp"
