@@ -22,7 +22,7 @@
 	},
 	"homepage": "https://github.com/jasongin/noble-uwp#readme",
 	"dependencies": {
-		"@nodert-win10-au/windows.devices.bluetooth.genericattributeprofile": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.bluetooth.genericattributeprofile": "github:acstacey/nodert-win10-cu-windows.devices.bluetooth.genericattributeprofile",
 		"@nodert-win10-cu/windows.devices.bluetooth": "^0.4.4",
 		"@nodert-win10-cu/windows.devices.bluetooth.advertisement": "^0.4.4",
 		"@nodert-win10-cu/windows.devices.enumeration": "^0.4.4",
