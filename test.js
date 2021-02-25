@@ -48,7 +48,6 @@ noble.on('discover', function (peripheral) {
 
 	peripheral.on('servicesDiscover', function (services) {
 		console.log('on -> peripheral services discovered ' + services);
-
 		var serviceIndex = 0;
 
 		services[serviceIndex].on('includedServicesDiscover', function (includedServiceUuids) {

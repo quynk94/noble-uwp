@@ -8,6 +8,7 @@ environment:
     - node_version: '6'
     - node_version: '8'
     - node_version: '10'
+    - node_version: '12'
 
 install:
   # install the right node version
@@ -30,7 +31,6 @@ install:
         npm config set -g cafile=package.json
         npm config set -g strict-ssl=false
       }
-
 build_script:
   - ps: echo "publish $publish_binary"
   - ps: |

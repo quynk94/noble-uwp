@@ -30,6 +30,15 @@
 		"debug": "^2.6.0",
 		"noble": "https://github.com/sonyged/noble.git#4f89e9474b6986ebdff2f520c9bd9b247989ad35"
 	},
+	"optionalDependencies": {
+		"@nodert-win10-cu/windows.devices.bluetooth": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.bluetooth.advertisement": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.bluetooth.genericattributeprofile": "github:acstacey/nodert-win10-cu-windows.devices.bluetooth.genericattributeprofile",
+		"@nodert-win10-cu/windows.devices.enumeration": "^0.4.4",
+		"@nodert-win10-cu/windows.devices.radios": "^0.4.4",
+		"@nodert-win10-cu/windows.foundation": "^0.4.4",
+		"@nodert-win10-cu/windows.storage.streams": "^0.4.4"
+	},
 	"bundledDependencies": [
 		"node-pre-gyp"
 	]
